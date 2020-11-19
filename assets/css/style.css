@@ -25,7 +25,6 @@ header {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-
 }
 
 header h1 {
@@ -80,9 +79,8 @@ header nav ul li a:hover {
 	color: var(--grey1);
 }
 
-
 .hero {
-	background-image: url('../img/hero1.jpg');
+	background-image: url('../img/hero1.JPG');
 	background-size: cover;
 	background-position: 50% 40%;
 	height: 350px;
