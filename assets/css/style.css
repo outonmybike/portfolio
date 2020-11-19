@@ -25,12 +25,12 @@ header {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+
 }
 
 header h1 {
 	font-weight: bold;
 	font-size: 36px;
-	color: var(--white1);
 	margin: 0;
 	display: flex;
 	align-items: center;
@@ -76,6 +76,10 @@ header nav ul li:hover {
 	font-weight: bold;
 }
 
+header nav ul li a:hover {
+	color: var(--grey1);
+}
+
 
 .hero {
 	background-image: url('../img/hero1.jpg');
@@ -88,15 +92,20 @@ header nav ul li:hover {
 }
 
 .subtitle {
-	font-size: 3vw;
-	font-weight: bold;
-	color: white;
-/*	display: inline;*/	
-	padding: 0 0 10% 0;
+	padding: 0 0 80px 0;
 }
 
 .c1 {
 	color: var(--liblue);
+}
+
+.hero-text {
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;	
+	font-size: 3vw;
+	font-weight: bold;
+	color: white;
+	padding: 3px;
 }
 
 
