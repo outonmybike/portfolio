@@ -1,14 +1,14 @@
 # Portfolio Page - Dan Nelson
 
 ## Purpose
-Provide a medium to showcase my work with web applications 
+Provide a medium to showcase work done on web applications 
 
 ## Built With
 * HTML
 * CSS
 
 ## Website
-https://lernantino.github.io/portfolio/
+https://outonmybike.github.io/portfolio/
 
 ## Contribution
 Dan Nelson
