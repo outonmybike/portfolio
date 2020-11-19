@@ -8,7 +8,7 @@ Provide a medium to showcase work done on web applications
 * CSS
 
 ## Website
-https://lernantino.github.io/portfolio/
+https://outonmybike.github.io/portfolio/
 
 ## Contribution
 Dan Nelson
