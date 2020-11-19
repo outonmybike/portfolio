@@ -1,7 +1,7 @@
 # Portfolio Page - Dan Nelson
 
 ## Purpose
-Provide a medium to showcase my work with web applications 
+Provide a medium to showcase work done on web applications 
 
 ## Built With
 * HTML
