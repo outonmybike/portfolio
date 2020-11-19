@@ -37,6 +37,7 @@ header h1 {
 header a {
 	text-decoration: none;
 	color: var(--white1);
+	transition: color .2s;
 }
 
 header nav ul {
@@ -64,21 +65,15 @@ header nav ul li a img {
 	height: 2.3vw;
 }
 
-.hover:hover {
-	background-color: white;
-	border-radius: 5px;
-	color: #0072b1;
-}
-
 header nav ul li:hover {
 	background-color: white;
 	border-radius: 5px;
-	color: #0072b1;
 	font-weight: bold;
 }
 
 header a:hover {
 	color: #0072b1;
+
 }
 
 
