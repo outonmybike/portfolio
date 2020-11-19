@@ -1,12 +1,14 @@
 :root {
 	--grey1: #1a1e22;
 	--white1: white;
+	--liblue: #0072b1;
 }
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -32,6 +34,8 @@ header h1 {
 	margin: 0;
 	display: flex;
 	align-items: center;
+	transition: .2s;
+	padding: 3px;
 }
 
 header a {
@@ -52,13 +56,14 @@ header nav ul li {
 	margin: 10px 15px;
 	display: flex;
 	align-items: center;
+	transition: .2s;
 }
 
 header nav ul li a {
 	font-size: 2vw;
 	display: flex;
 	align-items: center;
-	padding: 5px;
+	padding: 3px;
 }
 
 header nav ul li a img {
@@ -71,9 +76,77 @@ header nav ul li:hover {
 	font-weight: bold;
 }
 
-header a:hover {
-	color: #0072b1;
 
+.hero {
+	background-image: url('../img/hero1.jpg');
+	background-size: cover;
+	background-position: 50% 40%;
+	height: 350px;
+	display: flex;
+	align-items: flex-end; /*vertical*/
+	justify-content: center; /*horizontal*/
 }
+
+.subtitle {
+	font-size: 3vw;
+	font-weight: bold;
+	color: white;
+/*	display: inline;*/	
+	padding: 0 0 10% 0;
+}
+
+.c1 {
+	color: var(--liblue);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
