@@ -85,6 +85,7 @@ header nav ul li a:hover {
 	background-image: url('../img/hero1.jpg');
 	background-size: cover;
 	background-position: 50% 40%;
+	height: 350px;
 	height: 40vh;
 	display: flex;
 	align-items: flex-end; /*vertical*/
