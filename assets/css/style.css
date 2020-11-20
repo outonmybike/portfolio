@@ -207,49 +207,65 @@ h2 {
 .grid-item {
 	border: 4px solid var(--liblue);
 	margin: 5px;
+	background: white;
+}
+
+.grid-item:hover .grid-item-img::after {
+	opacity: 1;
 }
 
 .grid-item.large {
 	grid-column: 1 / span 2;
 	grid-row: 1 / span 2;
+	}
+
+.grid-item.large{
 	background-image: url(../img/hot_rod.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-color: white;
 }
 
 .grid-item.two {
 	background-image: url(../img/run_bud.png);
 	background-size: cover;
 	background-position: center;
-	background-color: white;
 }
 
 .grid-item.three {
 	background-image: url(../img/mtb.jpg);
 	background-size: cover;
 	background-position: 50% 10%;
-	background-color: white;
 }
 
 .grid-item.four {
 	background-image: url(../img/calculator.jpg);
 	background-size: cover;
 	background-position: 50% 10%;
-	background-color: white;
 }
 
 .grid-item.five {
 	background-image: url(../img/pizza.jpg);
 	background-size: cover;
 	background-position: 50% 10%;
-	background-color: white;
 }
 
-/*.grid-item.large a {
-	size: 100%;
-}*/
+.grid-item-img {
+	width: 100%;
+	height: 100%;
+}
+
+.grid-item-img::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;  
+}
 
 div.feature {
 	position: relative;
@@ -418,6 +434,10 @@ h2.whole-line {
 	}
 	.buffer {
 		height: 0px;
+	}
+
+	.grid-item-img::after {
+		display: none;
 	}
 }
 
