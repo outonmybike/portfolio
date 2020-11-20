@@ -272,12 +272,27 @@ div.feature a {
 	color: white;
 	padding: 5px 9px 9px 5px;
 	text-align: center;
-
-
-
-
 }
 
+.info {
+	width: 80%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;	
+}
+
+.info h4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 3px solid var(--liblue);
+	padding: 3px;
+}
+
+.info a {
+	text-decoration: none;
+	color: black;
+}
 
 .contact {
 	width: 90%;
@@ -286,7 +301,10 @@ div.feature a {
 	justify-content: space-between;
 }
 
-
+footer {
+	height: 20vw;
+	background-color: var(--grey1);
+}
 
 
 
