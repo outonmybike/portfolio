@@ -337,6 +337,11 @@ h2.whole-line {
   	height: 150px;
   	width: 150px;
   }
+
+  .offset span {
+	position: absolute;
+	top: 0px;
+	}
 }
 
 
@@ -398,15 +403,48 @@ h2.whole-line {
 		width: 100%;
 	}
 
-/*	.info h4 {
-		margin: 0 20px 0 20px;
-	}*/
+	header nav ul li a {
+	font-size: 24px;
+	}
+	
+	header nav ul li a img {
+	height: 24px;
+	}	
 
 }
 
 @media screen and (max-width: 575px) {
 
+	.content {
+		width: 100%;
+		order: 3;
+	}
 
+	.end {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.buffer {
+		height: 10px;
+	}
+
+	.hero-text {
+		display: none;
+	}
+
+	header nav ul li a {
+	font-size: 20px;
+	}
+
+	header nav ul li a img {
+	height: 20px;
+	}
+
+	.grid-container {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(4, 1fr);	
+	}
 }
 
 
