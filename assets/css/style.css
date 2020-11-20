@@ -37,7 +37,6 @@ header h1 {
 	margin: 0;
 	display: flex;
 	align-items: center;
-	transition: .2s;
 	padding: 3px;
 }
 
@@ -136,6 +135,7 @@ h2 {
 	padding: 15px;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .title {
@@ -149,7 +149,7 @@ h2 {
 
 }
 .content {
-	width: 60%;
+	max-width: 55%;
 	padding: 15px;
 }
 
@@ -160,7 +160,7 @@ h2 {
 }
 
 .end {
-/*	width: 15%;*/
+	width: 180px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -168,10 +168,10 @@ h2 {
 
 .photo {
 	width: 180px;
-	height: 220px;
+	height: 180px;
 	background-image: url('../img/dan.PNG');
 	background-size: cover;
-	background-position: 50% 35%;
+	background-position: 50% 20%;
 	overflow: hidden;
 	border-radius: 50%;
 }
@@ -181,6 +181,7 @@ h2 {
 	padding: 15px;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .grid {
@@ -306,9 +307,107 @@ footer {
 	background-color: var(--grey1);
 }
 
+h2.whole-line {
+	display: none;
+}
+
+/* Smaller desktop screens and smaller */
+@media screen and (max-width: 980px) {
+
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+  header h1 {
+    width: 100%;
+    justify-content: center;
+    padding: 0px;
+  }
+  header nav ul {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .end {
+  	width: 150px;
+  }
+
+  .photo {
+  	height: 150px;
+  	width: 150px;
+  }
+}
 
 
+/* Tablets and smaller */
+@media screen and (max-width: 768px) {
+	
+	.hero {
+		height: 30vw;
+	}
 
+	.about-me {
+		width: 100%;
+		justify-content: center;
+    	position: relative;
+    	padding: 30px;
+	}
+	
+	.title {
+		width: 100%;
+		justify-content: center;
+		border-right: 0;
+		border-bottom: 3px solid var(--liblue);
+	}
+
+	h2.line-break {
+		display: none;
+	}
+
+	h2.whole-line {
+		display: flex;
+	}
+
+	.work {
+		width: 100%;
+		justify-content: center;
+    	position: relative;
+    	padding: 30px;		
+	}
+
+	.grid {
+		padding-top: 20px;
+		width: 100%;
+	}
+
+	.grid-container {
+		width: 100%;
+	}
+
+	.contact {
+		width: 100%;
+		justify-content: center;
+		position: relative;
+		padding: 30px;
+		flex-wrap: wrap;
+	}
+
+	.info {
+		padding-top: 20px;
+		width: 100%;
+	}
+
+/*	.info h4 {
+		margin: 0 20px 0 20px;
+	}*/
+
+}
+
+@media screen and (max-width: 575px) {
+
+
+}
 
 
 
