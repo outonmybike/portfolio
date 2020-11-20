@@ -207,16 +207,17 @@ h2 {
 .grid-item {
 	border: 4px solid var(--liblue);
 	margin: 5px;
-	background: white;
+	background: rgba(0, 0, 0, 0.5);
 }
 
 .grid-item:hover .grid-item-img::after {
-	opacity: 1;
+	opacity: 0;
 }
 
 .grid-item.large {
 	grid-column: 1 / span 2;
 	grid-row: 1 / span 2;
+	background: white;
 	}
 
 .grid-item.large{
@@ -259,11 +260,11 @@ h2 {
   content: "";
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0;
+  opacity: 1;
   transition: opacity .5s;  
 }
 
