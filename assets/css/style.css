@@ -305,6 +305,7 @@ div.feature a {
 footer {
 	height: 20vw;
 	background-color: var(--grey1);
+	width: 100%;
 }
 
 h2.whole-line {
@@ -364,6 +365,7 @@ h2.whole-line {
 		justify-content: center;
 		border-right: 0;
 		border-bottom: 3px solid var(--liblue);
+		text-align: center;
 	}
 
 	h2.line-break {
@@ -414,23 +416,31 @@ h2.whole-line {
 	.hero-text {
 		display: none;
 	}
+	.buffer {
+		height: 0px;
+	}
 }
 
 /* Mobile */
 @media screen and (max-width: 575px) {
 
 	.content {
+		max-width: 100%;
 		width: 100%;
 		order: 3;
+	}
+
+	.title {
+		padding-top: 0;
+	}
+
+	.work {
+		padding-top: 0;
 	}
 
 	.end {
 		width: 100%;
 		margin-top: 20px;
-	}
-
-	.buffer {
-		height: 10px;
 	}
 
 	header nav ul li a {
@@ -444,6 +454,19 @@ h2.whole-line {
 	.grid-container {
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(4, 1fr);	
+	}
+
+	.info {
+		flex-wrap: wrap;
+	}
+
+	.info h4 {
+		margin: 5px;
+	}
+
+	.about-me {
+		padding-top: 15px;
+		padding-bottom: 15px;
 	}
 }
 
